@@ -36,5 +36,14 @@ public class Main {
         calc_mod.mod();
         calc_mod.displayResult("%");
 
+        CircleCalculator calc_gri = new CircleCalculator();
+        calc_gri.setNumbers(num1);
+        calc_gri.circleGirth();
+        calc_gri.displayResult("girth");
+
+        CircleCalculator calc_area = new CircleCalculator();
+        calc_area.setNumbers(num1);
+        calc_area.circleArea();
+        calc_area.displayResult("area");
     }
 }
