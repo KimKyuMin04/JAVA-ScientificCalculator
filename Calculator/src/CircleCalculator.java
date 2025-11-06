@@ -17,10 +17,12 @@ public class CircleCalculator extends ScientificCalculator {
     }
     public double circleGirth(){
         result = (2 * num1 * 3.14);
+        result = (double) Math.round(result * 10) / 10;
         return result;
     }
     public double circleArea(){
         result = (num1 * num1 * 3.14);
+        result = (double) Math.round(result * 10) / 10;
         return result;
     }
 
