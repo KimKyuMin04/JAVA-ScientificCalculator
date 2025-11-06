@@ -14,6 +14,7 @@ class CircleCalculatorTest {
 
     @Test
     void circleGirthTest() {assertEquals(31.4, circleCalc.circleGirth());}
+    @Test
     void circleAreaTest() {assertEquals(78.5, circleCalc.circleArea());}
 
 }
